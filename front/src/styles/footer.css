@@ -1,0 +1,79 @@
+.footer {
+    width: 100%;
+    background-color: #3F4E65;
+    min-height: 500px;
+    color: white;
+}
+
+.footer__container {
+    max-width: 1366px;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links {
+    color: white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Inter', sans-serif;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.footer__info__text {
+    padding: 15px 0 45px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.footer__info__stocks {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 14px;
+}
+
+.button__footer {
+    padding: 25px 0 20px 0;
+}
+
+.social_network {
+    padding-top: 15px;
+}
+
+.whatsAap {
+    padding-right: 10px;
+}
+
+.number {
+    line-height: 21px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.time {
+    padding: 5px 0 45px 0;
+}
+
+.cards {
+    padding-top: 25px;
+}

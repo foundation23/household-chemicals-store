@@ -1,0 +1,71 @@
+.parameters__price__input {
+    display: flex;
+    align-items: center;
+}
+
+.parameters__price__input input {
+    max-width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FECA6E;
+    padding: 4px 0 4px 0;
+}
+
+.parameters__price__span {
+    padding: 0 10px 0 10px;
+    color: #3F4E65;
+    font-weight: 500;
+}
+
+.parameters {
+    padding-top: 30px;
+}
+
+.parameters h3 {
+    padding-bottom: 10px;
+}
+
+.parameters__name {
+    padding-left: 10px;
+    color: #3F4E65;
+    line-height: 21px;
+}
+
+.parameters__list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    color: #3F4E65;
+}
+
+.manufactures {
+    max-width: 220px;
+    border-bottom: #D3D3D3 dashed 1px;
+}
+
+.show-all {
+    padding: 15px 0 15px 0;
+}
+
+.show-all span {
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 12px;
+    color: #3F4E65;
+}
+
+.parameters__button {
+    display: flex;
+}
+
+.parameters__button__delete {
+    padding-left: 10px;
+}
+
+.parameters__button__delete button {
+    padding: 20px;
+}

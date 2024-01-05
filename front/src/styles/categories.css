@@ -1,0 +1,19 @@
+
+.categories ul {
+    display: flex;
+}
+
+.categories li {
+    background-color: #FFFFFF;
+    padding: 18px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    text-align: center;
+    color: #3F4E65;
+}
+
+.active {
+    border: #FFC85E solid 2px;
+}

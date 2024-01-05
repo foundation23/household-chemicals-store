@@ -1,0 +1,13 @@
+.button {
+    display: flex;
+}
+
+.button__span {
+    display: flex;
+    align-items: flex-end;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+}

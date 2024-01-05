@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+img {
+    vertical-align: top;
+}
+
+.container {
+    max-width: 1366px;
+}
+
+.app {
+    background-color: #FCFCFC;
+}
+h2{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+}
+h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .header__bell {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .connection {
+        display: none;
+    }
+
+    .top {
+        justify-content: center;
+    }
+
+    .header__catalog {
+        display: none;
+    }
+
+    .cart__price__number {
+        display: none;
+    }
+
+    .cart__title {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .top {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+.search {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    background-color: #EDEDED;
+    padding: 0.375rem 0.75rem;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5C6370;
+    border-radius: 40px;
+    max-height: 59px;
+}
+
+.search__input {
+    background-color: #EDEDED;
+    flex-grow: 2;
+}
+
+.search__input__btn {
+    width: 39px;
+    height: 39px;
+    align-items: center;
+}
